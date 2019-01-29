@@ -5,4 +5,4 @@ Discord: panzar#9526
 
 ## Installation
 * Lägg till panzar-load i dina resources.
-* Starta panzar-load i start.cfg och restarta.
+* Skriv in "start panzar-load" i server.cfg och starta om servern.
