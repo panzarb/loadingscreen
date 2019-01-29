@@ -1,5 +1,8 @@
 # FiveM Loadingscreen
 > Discord: panzar#9526
-> 
 
-![](https://media.discordapp.net/attachments/539829599081594920/539928678684033074/unknown.png?width=1201&height=675)
+## Installation
+```
+1. Lägg till panzar-load i dina resources.
+2. Starta panzar-load i start.cfg och restarta.
+```
