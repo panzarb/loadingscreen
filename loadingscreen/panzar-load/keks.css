@@ -1,0 +1,231 @@
+body {
+
+  background-color: rgb(37, 37, 37);
+
+    padding: 0;
+    margin: 0;
+}
+
+#particle {
+  z-index: 9999;
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+
+  border: 3px solid #6db963;
+}
+
+.discord {
+  z-index: 9999;
+  position: absolute;
+}
+
+#discordText {
+  text-decoration: none;
+  position: absolute;
+  margin-top: 1010px;
+  margin-left: 70px;
+
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #567c51;
+
+  text-shadow: 1px 1px #2a2a2a;
+}
+
+#discordskog {
+  color: #6db963;
+}
+
+.discordTextBack {
+
+  padding: 16px;
+  padding-right: 40px;
+  background-color: #4b4a4a4d;
+
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.discordIcon {
+
+  margin-top: 1010px;
+  margin-left: 20px;
+
+  width: 50px;
+  height: 50px;
+
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+.discordPictureReal {
+  position: absolute;
+  z-index: 9999;
+  margin-top: -53px;
+  margin-left: 30px;
+  width: 30px;
+  height: 25px;
+}
+
+#logo {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #6db963;
+    font-weight: 400;
+    z-index: 9998;
+    position: absolute;
+
+    margin-top: 350px;
+    margin-left: 550px;
+
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.spinner {
+  z-index: 9999;
+  position: absolute;
+
+  margin-top: 500px;
+  margin-left: 870px;
+
+  width: 125px;
+  height: 125px;
+}
+.spinner:before, .spinner:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+/* spinner-1 styles */
+@-webkit-keyframes rotate-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes anti-rotate-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+@keyframes anti-rotate-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+.spinner.spinner-1:before {
+  width: 117px;
+  height: 117px;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #7ed672;
+  border-left-color: #7ed672;
+  top: 0px;
+  left: 0px;
+  -webkit-animation: rotate-animation 1.5s linear 0s infinite;
+          animation: rotate-animation 1.5s linear 0s infinite;
+}
+.spinner.spinner-1:after {
+  width: 81.9px;
+  height: 81.9px;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #7ed672;
+  border-left-color: #7ed672;
+  top: 17.55px;
+  left: 17.55px;
+  -webkit-animation: anti-rotate-animation 1.05s linear 0s infinite;
+          animation: anti-rotate-animation 1.05s linear 0s infinite;
+}
+
+
+.website {
+  z-index: 9999;
+  position: absolute;
+}
+
+#websiteText {
+  text-decoration: none;
+  position: absolute;
+  margin-top: 940px;
+  margin-left: 70px;
+
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #567c51;
+
+  text-shadow: 1px 1px #2a2a2a;
+}
+
+#websiteskog {
+  color: #6db963;
+}
+
+.websiteTextBack {
+  padding: 16px;
+  padding-right: 40px;
+  background-color: #4b4a4a4d;
+
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+
+.websiteIcon {
+
+  margin-top: 940px;
+  margin-left: 20px;
+
+  width: 50px;
+  height: 50px;
+
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+.websitePictureReal {
+  position: absolute;
+  z-index: 9999;
+  margin-top: -56px;
+  margin-left: 31px;
+  width: 30px;
+  height: 30px;
+}
+
+#bold {
+  color: #6db963;
+}
