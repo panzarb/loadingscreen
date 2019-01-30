@@ -35,6 +35,41 @@
         background-image: url(https://images.wallpaperscraft.com/image/mask_grass_anonymous_124215_1920x1080.jpg);
         filter:brightness(30%); 
         z-index: 9;">
+        
+        <script type="text/javascript">
+function play()
+{
+var a = Math.random()*5;
+a=Math.floor(a);
 
+if(a==4)
+{
+document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay><source src='music/music5.ogg' type='audio/ogg'></audio>";
+}
+if(a==3)
+{
+document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay><source src='music/music4.ogg' type='audio/ogg'></audio>";
+}
+if(a==2)
+{
+document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay><source src='music/music3.ogg' type='audio/ogg'></audio>";
+}
+
+if(a==1)
+{
+document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay><source src='music/music2.ogg' type='audio/ogg'></audio>";
+}
+if(a==0)
+{
+document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay><source src='music/music1.ogg' type='audio/ogg'></audio>";
+}
+}
+</script>
+
+    </head>
+    <body onload="play()">
+    <div id="soundtrack">
+
+    </div>
     </body>
 </html>
